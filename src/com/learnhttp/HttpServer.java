@@ -29,9 +29,7 @@ public class HttpServer {
 				socket = ss.accept();
 				input = socket.getInputStream();
 				output = socket.getOutputStream();
-				Request re = new Request(input);
-//				Response rs = new Response();
-//				rs.setRequest(rs);
+
 			}catch(Exception e) {
 				
 			}
